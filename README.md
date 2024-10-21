@@ -53,42 +53,6 @@
 
 ---
 
-## Usage
-
-1. **Create a Task**: Click the "Add another card" button under the appropriate column to add a task.
-2. **Move a Task**: Drag and drop tasks between columns (To Do, In Progress, Done).
-3. **Edit/Delete Tasks**: Coming soon.
-
----
-
-## Code Structure
-
-- **App.js**: The main component that houses the Trello context provider and manages the state using `useReducer`.
-- **CardList.js**: Represents each column (To Do, In Progress, Done) and handles task creation.
-- **Card.js**: Individual task card component with drag-and-drop functionality using React DnD.
-
----
-
-## Contributing
-
-We welcome contributions to this project! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a pull request.
 
 
-## Acknowledgements
 
-- Thanks to the creators of React, React DnD, and Tailwind CSS for their powerful tools.
-- Inspired by the functionality of Trello for task management.
-
----
-
-check the deployed project here : https://trello-clone-theta-lilac.vercel.app/
-
-**Author**: [Basit Manzoor](https://github.com/basit438)
-
---
